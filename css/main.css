@@ -35,26 +35,15 @@ li {
     margin-top: 20px;
 }
 
-.img_container {
-    position: relative;
-}
-
-
-.primary_img {
-    
-    z-index: 2;
-}
-
 .secondary_img {
     display: none;
 }
 
-.product:hover .secondary_img {
-    z-index: 3;
+.img_container:hover .secondary_img {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
 }
-
-
-
 
 /* product lables */
 .lables{
@@ -120,17 +109,3 @@ li {
     color: #ef3c2d;
     text-decoration: line-through;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
