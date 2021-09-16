@@ -23,7 +23,8 @@ ul {
     width: 65%;
 }
 
-.container {
+.product {
+    position: relative;
     display: inline-block;
     width: calc(100% / 3 - 5px);
     margin-top: 20px;
@@ -38,6 +39,8 @@ ul {
     border: 1px solid currentColor;
     color: white;
     padding: 3px;
+    position: absolute;
+    top: 75%;
 }
 
 .discount {
@@ -46,10 +49,9 @@ ul {
 }
 
 .merits {
+    display: inline-block;
     background-color: #88d498;
 }
-
-
 
 
 
