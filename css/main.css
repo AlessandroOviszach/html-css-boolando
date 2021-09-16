@@ -7,19 +7,20 @@
     font-family: sans-serif;
 }
 
-
-
 /* tags */
 
 img{
     width: 100%;
 }
 
-/* utilities */
+ul {
+    list-style: none;
+}
 
+/* utilities */
 .main_container {
     margin: 10px auto;
-    width: 85%;
+    width: 65%;
 }
 
 .container {
@@ -28,21 +29,25 @@ img{
     margin-top: 20px;
 }
 
-.primary_img {
-
-    
-}
-
 .second_img {
     display: none;
 }
 
+/* product lables */
+.lables{
+    border: 1px solid currentColor;
+    color: white;
+    padding: 3px;
+}
 
+.discount {
+    background-color: #ef3c2d;
+    border-radius: 2px;
+}
 
-
-
-
-
+.merits {
+    background-color: #88d498;
+}
 
 
 
