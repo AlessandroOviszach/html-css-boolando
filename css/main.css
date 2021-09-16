@@ -11,24 +11,31 @@
 
 /* tags */
 
+img{
+    width: 100%;
+}
+
 /* utilities */
 
 .main_container {
-    position: relative;
     margin: 10px auto;
-    width: 800px;
+    width: 85%;
 }
 
 .container {
     display: inline-block;
-    background-color: #e9e9e7;
-    width: calc(100% / 3);
-    height: 200px;
+    width: calc(100% / 3 - 5px);
+    margin-top: 20px;
+}
+
+.primary_img {
 
     
 }
 
-
+.second_img {
+    display: none;
+}
 
 
 
