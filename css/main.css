@@ -15,6 +15,11 @@ img{
 
 ul {
     list-style: none;
+    padding-top: 10px;
+}
+
+li {
+    padding-bottom: 5px;
 }
 
 /* utilities */
@@ -36,26 +41,64 @@ ul {
 
 /* product lables */
 .lables{
-    border: 1px solid currentColor;
+    font-size: 15px;
+    border: 1px solid ;
     color: white;
-    padding: 3px;
+    padding: 5px 15px;
     position: absolute;
     top: 75%;
 }
 
 .discount {
     background-color: #ef3c2d;
-    border-radius: 2px;
+    border: currentColor;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 }
 
 .merits {
     display: inline-block;
     background-color: #88d498;
+    border: currentColor;
+    border-radius: 15px;
+    left: 70px;
+}
+
+.add_desire {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 10px 15px;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 
 
+.product_details {
+    text-align: right;
+}
 
+.brand {
+    font-size: 15px;
+    color: ##5d5d5d;
+}
+
+.product_name {
+    font-weight: 600;
+}
+
+.price {
+    color: #88d498;
+}
+
+.old_price {
+    color: #ef3c2d;
+    text-decoration: line-through;
+}
 
 
 
